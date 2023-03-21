@@ -8,7 +8,7 @@
 
 ---
 
-## 🤔 Sobre
+## 🚀 Sobre
 
 Projeto **Pokedex**, projeto feito para listar os pokemons da api pokeapi.
 
@@ -53,10 +53,10 @@ O projeto foi feito utilizando das seguintes tecnologias
 
 ```bash
   #clonar o repositorio
-  $ git clone https://github.com/dholand4/pokedex.git
+  $ git clone https://github.com/datamon1.2/pokedex.git
 
   #entrar na pasta do projeto
-  $ cd pokedex
+  $ cd datamon1.2
 
   #instalar as dependencias
   $ yarn

@@ -3,7 +3,7 @@ import styled, { css } from "styled-components/native";
 export const Container = styled.View`
     ${({theme}) => css`
     flex: 1;
-    background-color: ${theme.colors.backgroundCard.water};
+    background-color: ${theme.colors.backgroundCard.ice};
     `}
 `;
 
@@ -17,7 +17,7 @@ export const WrapperAnimation = styled.View`
     ${({theme}) => css`
         width: 200px;
         height: 300px;
-        background-color: ${theme.colors.boxType.water};
+        background-color: ${theme.colors.backgroundCard.ice};
         border-radius: 100px;
 
         justify-content: center;
@@ -37,7 +37,7 @@ export const Footer  = styled.View`
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
         height: 30%;
-        background-color: ${theme.colors.background};
+        background-color: ${theme.colors.backgroundCard.ice};
         padding: 20px;
     `}
 `;

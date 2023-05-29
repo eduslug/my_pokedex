@@ -1,7 +1,8 @@
 import React from 'react';
 import * as S from './styles'
 import AnimatedLottieView from 'lottie-react-native';
-import pokemonAnimated from './assets/pokemon.json';
+import pokemonAnimated from './assets/game-east-west.json';
+// import imagePpoke from './simple_pokeball 1.png'
 import {useNavigation} from '@react-navigation/native' 
 import { Button } from '../../components/Button';
 
@@ -19,17 +20,17 @@ export function Welcome() {
     <S.Content>
         <S.WrapperAnimation>
             <S.WrapperImage>
-            <AnimatedLottieView style={{width: 200}} autoPlay source={pokemonAnimated} loop />
+            <AnimatedLottieView style={{width: 300}} autoPlay source={pokemonAnimated} loop />
             </S.WrapperImage>
 
         
         </S.WrapperAnimation>
-        <S.Title>Bem Vindo</S.Title>
+        <S.Title>Datamon</S.Title>
         <S.SubTitle>Encontre todos os pokémons em um só lugar!</S.SubTitle>
     </S.Content>
     <S.Footer>
         <Button 
-            title='Clique aqui para continuar' 
+            title='Toque para continuar' 
             onPress={handleNavigation}>
         </Button>
 

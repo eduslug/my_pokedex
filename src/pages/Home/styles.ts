@@ -13,7 +13,6 @@ export const Container = styled.View`
   ${({ theme }) => css`
     background: ${theme.colors.backgroundCard.ice};
     flex: 1;
-
     position: relative;
   `}
 `;

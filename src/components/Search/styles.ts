@@ -7,8 +7,10 @@ export const ContainerSearchPokemon = styled.View`
 
 export const SearchPokemon = styled.TextInput`
   ${({ theme }) => css`
+  background-color: ${theme.colors.backgroundCard};
     font-size: 16px;
-    font-weight: 400;    
+    font-weight: 400;
+    color:white ;
   `}
   `;
 
